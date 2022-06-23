@@ -3,7 +3,7 @@ int main()
 {
     FILE *fp;
     char ch;
-    fp = fopen("abcs.txt","r");
+    fp = fopen("file2.cpp","r");
     if(fp==NULL)
         printf("File is not opening");
     while(1)
